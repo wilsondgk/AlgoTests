@@ -20,6 +20,8 @@ class ProblemListVC: UIViewController, UITableViewDelegate, UITableViewDataSourc
         return view
     }()
     
+    var firstPushVC: UIViewController?
+    
     init(withProblems problems: [AlgoExampleStrategy]) {
         self.problems = problems
         super.init(nibName: nil, bundle: nil)
@@ -31,9 +33,17 @@ class ProblemListVC: UIViewController, UITableViewDelegate, UITableViewDataSourc
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         setupLayout()
         title = "Algo Problems"
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        if firstPushVC ==  nil {
+            firstPushVC = ProblemVC(with: problems.last!)
+            self.navigationController?.pushViewController(firstPushVC!, animated: true)
+        }
     }
     
     private func setupLayout() {

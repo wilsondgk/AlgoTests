@@ -23,6 +23,7 @@ class ProblemVC: UIViewController {
         let label = UILabel()
         label.textColor = .black
         label.text = "print"
+        label.numberOfLines = 0
         return label
     }()
     
@@ -52,6 +53,11 @@ class ProblemVC: UIViewController {
         title = problem.title
         runAlgoDelegate = problem
         setupLayout()
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        runAlgoDelegate?.runAlgo(printLabel)
     }
     
     private func setupLayout() {

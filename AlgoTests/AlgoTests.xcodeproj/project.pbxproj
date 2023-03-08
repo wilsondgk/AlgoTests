@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B513D14F29B7CB5400667B6F /* Prob242.swift in Sources */ = {isa = PBXBuildFile; fileRef = B513D14E29B7CB5400667B6F /* Prob242.swift */; };
+		B513D15129B7CEAD00667B6F /* Prob306.swift in Sources */ = {isa = PBXBuildFile; fileRef = B513D15029B7CEAD00667B6F /* Prob306.swift */; };
+		B513D15329B8D03700667B6F /* Prob167.swift in Sources */ = {isa = PBXBuildFile; fileRef = B513D15229B8D03700667B6F /* Prob167.swift */; };
+		B513D15529B8D3AA00667B6F /* Prob15.swift in Sources */ = {isa = PBXBuildFile; fileRef = B513D15429B8D3AA00667B6F /* Prob15.swift */; };
 		B57B995B299ECD7B007DE979 /* Prob1781.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57B995A299ECD7B007DE979 /* Prob1781.swift */; };
 		B57B995D299ED5A4007DE979 /* AlgoStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57B995C299ED5A4007DE979 /* AlgoStrategy.swift */; };
+		B58ED61C29B129FC0006A1A7 /* Prob205.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58ED61B29B129FC0006A1A7 /* Prob205.swift */; };
+		B58ED61E29B692EA0006A1A7 /* TrueLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58ED61D29B692EA0006A1A7 /* TrueLogic.swift */; };
 		B58F7ED829B0DDB700488F70 /* Prob1915.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58F7ED729B0DDB700488F70 /* Prob1915.swift */; };
 		B59CC38529AFFD1900B60791 /* ProblemListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59CC38429AFFD1900B60791 /* ProblemListVC.swift */; };
 		B5C9BE2A299DCE0F008FE006 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C9BE29299DCE0F008FE006 /* AppDelegate.swift */; };
@@ -38,8 +44,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B513D14E29B7CB5400667B6F /* Prob242.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prob242.swift; sourceTree = "<group>"; };
+		B513D15029B7CEAD00667B6F /* Prob306.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prob306.swift; sourceTree = "<group>"; };
+		B513D15229B8D03700667B6F /* Prob167.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prob167.swift; sourceTree = "<group>"; };
+		B513D15429B8D3AA00667B6F /* Prob15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prob15.swift; sourceTree = "<group>"; };
 		B57B995A299ECD7B007DE979 /* Prob1781.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prob1781.swift; sourceTree = "<group>"; };
 		B57B995C299ED5A4007DE979 /* AlgoStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoStrategy.swift; sourceTree = "<group>"; };
+		B58ED61B29B129FC0006A1A7 /* Prob205.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prob205.swift; sourceTree = "<group>"; };
+		B58ED61D29B692EA0006A1A7 /* TrueLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrueLogic.swift; sourceTree = "<group>"; };
 		B58F7ED729B0DDB700488F70 /* Prob1915.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prob1915.swift; sourceTree = "<group>"; };
 		B59CC38429AFFD1900B60791 /* ProblemListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemListVC.swift; sourceTree = "<group>"; };
 		B5C9BE26299DCE0F008FE006 /* AlgoTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlgoTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,6 +149,12 @@
 				B57B995C299ED5A4007DE979 /* AlgoStrategy.swift */,
 				B57B995A299ECD7B007DE979 /* Prob1781.swift */,
 				B58F7ED729B0DDB700488F70 /* Prob1915.swift */,
+				B58ED61B29B129FC0006A1A7 /* Prob205.swift */,
+				B58ED61D29B692EA0006A1A7 /* TrueLogic.swift */,
+				B513D14E29B7CB5400667B6F /* Prob242.swift */,
+				B513D15029B7CEAD00667B6F /* Prob306.swift */,
+				B513D15229B8D03700667B6F /* Prob167.swift */,
+				B513D15429B8D3AA00667B6F /* Prob15.swift */,
 			);
 			path = StrategyClasses;
 			sourceTree = "<group>";
@@ -271,9 +289,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B513D15129B7CEAD00667B6F /* Prob306.swift in Sources */,
+				B58ED61E29B692EA0006A1A7 /* TrueLogic.swift in Sources */,
 				B59CC38529AFFD1900B60791 /* ProblemListVC.swift in Sources */,
+				B58ED61C29B129FC0006A1A7 /* Prob205.swift in Sources */,
+				B513D15529B8D3AA00667B6F /* Prob15.swift in Sources */,
 				B5C9BE2E299DCE0F008FE006 /* ProblemVC.swift in Sources */,
+				B513D14F29B7CB5400667B6F /* Prob242.swift in Sources */,
 				B58F7ED829B0DDB700488F70 /* Prob1915.swift in Sources */,
+				B513D15329B8D03700667B6F /* Prob167.swift in Sources */,
 				B5C9BE2A299DCE0F008FE006 /* AppDelegate.swift in Sources */,
 				B57B995B299ECD7B007DE979 /* Prob1781.swift in Sources */,
 				B57B995D299ED5A4007DE979 /* AlgoStrategy.swift in Sources */,
