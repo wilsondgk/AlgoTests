@@ -19,5 +19,5 @@ protocol AlgoRunable: AnyObject {
 }
 
 struct AllStrategies {
-    static let list: [AlgoExampleStrategy] = [Prob1781(), Prob1915(), Prob205(), Prob242(), Prob167(), Prob15()]
+    static let list: [AlgoExampleStrategy] = [Prob1781(), Prob1915(), Prob205(), Prob242(), Prob167(), Prob15(), Prob42(), Prob31()]
 }
